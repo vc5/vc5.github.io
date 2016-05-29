@@ -1,0 +1,8 @@
+[submodule "source"]
+	path = source
+	url = https://github.com/vcnovember/weichen.me.posts.git
+	branch = master
+[submodule "themes/next"]
+	path = themes/next
+	url = https://github.com/vcnovember/hexo-theme-next.git
+	branch = weichen
