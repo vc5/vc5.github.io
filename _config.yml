@@ -67,7 +67,7 @@ plugins:
 #- hexo-qiniu-sync
 
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: jacman
 stylus:
   compress: true
 
