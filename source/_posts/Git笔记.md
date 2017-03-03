@@ -19,3 +19,7 @@ categories: 编程
 # 同步 Github fork 出来的分支
 + [如何同步 Github fork 出来的分支](http://jinlong.github.io/2015/10/12/syncing-a-fork/)
 + [Github官方指南](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+
+# Tricks
++ 检查ssh——key指纹
+`ssh-keygen.exe  -E md5 -lf ~/.ssh/id_rsa`
