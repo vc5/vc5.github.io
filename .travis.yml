@@ -13,7 +13,7 @@ branches:
 
 before_install:
 - openssl aes-256-cbc -K $encrypted_0258d8bf4e05_key -iv $encrypted_0258d8bf4e05_iv
-  -in id_rsa.enc -out /tmp/tra/id_rsa -d
+  -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
   # Set the permission of the key
 - chmod 600 ~/.ssh/id_rsa
 # Start SSH agent
