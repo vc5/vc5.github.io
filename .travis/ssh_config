@@ -1,4 +1,4 @@
-Host vcnovember.github.com
+Host vc5.github.com
         User git
         Hostname github.com
         StrictHostKeyChecking no

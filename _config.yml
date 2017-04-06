@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.weichen.me
+url: https://vc5.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -85,5 +85,5 @@ baidushare: false
 deploy:
 - type: git
   repo: 
-      github: git@vcnovember.github.com:vc5/vc5.git,master
+      github: git@vc5.github.com:vc5/vc5.github.io.git,master
       coding: git@git.coding.net:intelligentvincent/intelligentvincent.git,coding-pages
