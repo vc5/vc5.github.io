@@ -6,8 +6,11 @@ tags:
 - VCS
 categories: 编程
 ---
-# 设置远程仓库
+# 添加远程仓库
 `git remote add origin git@github.com:vcnovember/hexo-theme-next.git`
+
+# 修改远程仓库
+`git remote set-url origin git@vc5.github.com:vc5/vc5.git`
 
 # 同时管理多个仓库
 利用ssh config
@@ -22,4 +25,4 @@ categories: 编程
 
 # Tricks
 + 检查ssh——key指纹
-`ssh-keygen.exe  -E md5 -lf ~/.ssh/id_rsa`
+`ssh-keygen  -E md5 -lf ~/.ssh/id_rsa`
