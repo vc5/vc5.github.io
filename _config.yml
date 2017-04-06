@@ -85,5 +85,5 @@ baidushare: false
 deploy:
 - type: git
   repo: 
-      github: git@vcnovember.github.com:vcnovember/vcnovember.github.io.git,master
+      github: git@vcnovember.github.com:vc5/vc5.git,master
       coding: git@git.coding.net:intelligentvincent/intelligentvincent.git,coding-pages
