@@ -3,6 +3,7 @@ node_js: stable
 install:
 - npm install
 script:
+- sync
 - hexo g
 - hexo d
 - rm -rf ~/.ssh
