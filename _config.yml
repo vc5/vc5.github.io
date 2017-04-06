@@ -79,6 +79,27 @@ baidusitemap:
 
 ## DIY
 baidushare: false
+
+## 七牛同步
+qiniu:
+  offline: false
+  sync: true
+  bucket: weichen
+  # secret_file: sec/qn.json or C:
+  access_key: $qiniuak
+  secret_key: $qiniusk
+  dirPrefix: static
+  urlPrefix: http://7xn70q.com1.z0.glb.clouddn.com/static
+  up_host: http://upload.qiniu.com
+  local_dir: static
+  update_exist: true
+  image: 
+    folder: images
+    extend: 
+  js:
+    folder: js
+  css:
+    folder: css
   
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
