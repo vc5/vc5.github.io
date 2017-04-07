@@ -86,9 +86,9 @@ qiniu:
   sync: true
   bucket: weichen
   secret_file: ../../../.ssh/qn.json
-  dirPrefix: static
-  urlPrefix: http://7xn70q.com1.z0.glb.clouddn.com/static
-  up_host: http://upload.qiniu.com
+  dirPrefix: 
+  urlPrefix: https://7xn70q.com1.z0.glb.clouddn.com
+  up_host: https://upload.qiniu.com
   local_dir: static
   update_exist: true
   image: 
