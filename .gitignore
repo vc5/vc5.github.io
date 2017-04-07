@@ -6,4 +6,5 @@ public/
 node_modules/
 .deploy*/
 .git*/
+secret/*
 
