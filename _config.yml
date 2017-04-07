@@ -85,9 +85,7 @@ qiniu:
   offline: false
   sync: true
   bucket: weichen
-  # secret_file: sec/qn.json or C:
-  access_key: $qiniuak
-  secret_key: $qiniusk
+  secret_file: .ssh/qn.json
   dirPrefix: static
   urlPrefix: http://7xn70q.com1.z0.glb.clouddn.com/static
   up_host: http://upload.qiniu.com
