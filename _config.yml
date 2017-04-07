@@ -85,10 +85,12 @@ qiniu:
   offline: false
   sync: true
   bucket: weichen
-  secret_file: ../../../.ssh/qn.json
-  dirPrefix: 
-  urlPrefix: https://7xn70q.com1.z0.glb.clouddn.com
-  up_host: https://upload.qiniu.com
+  # secret_file: ../../../.ssh/qn.json
+  access_key: $qiniuak
+  secret_key: $qiniusk
+  dirPrefix: vc5
+  urlPrefix: http://7xn70q.com1.z0.glb.clouddn.com/vc5
+  up_host: http://upload.qiniu.com
   local_dir: static
   update_exist: true
   image: 
