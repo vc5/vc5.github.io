@@ -16,7 +16,6 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_c2f92b25f22f_key -iv $encrypted_c2f92b25f22f_iv
   -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
 - chmod 600 ~/.ssh/id_rsa
-- chmod 600 ~/.ssh/qn.json
 - eval $(ssh-agent)
 - ssh-add ~/.ssh/id_rsa
 - cp .travis/ssh_config ~/.ssh/config
