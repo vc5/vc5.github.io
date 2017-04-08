@@ -4,10 +4,8 @@ install:
 - npm install
 script:
 - hexo qiniu s
-- hexo g
-- hexo d
-- rm -rf ~/.ssh
-- rm -rf secret
+- hexo g -d
+- rm -rf ~/.ssh secret
 branches:
   only:
   - hexo
