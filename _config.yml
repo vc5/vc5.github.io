@@ -105,4 +105,5 @@ deploy:
 - type: git
   repo: 
       github: git@vc5.github.com:vc5/vc5.github.io.git,master
-      coding: git@git.coding.net:intelligentvincent/intelligentvincent.git,coding-pages
+      coding: git@git.coding.net:vc5/vc5.coding.me.git,coding-pages
+      
