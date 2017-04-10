@@ -18,7 +18,7 @@ categories: 学术
 2. 注册完毕以后请登录学校邮箱，一旦注册成功，OriginLab将发一封“OriginPro Learning Edition instruction”邮件到学生邮箱，请根据邮件提示完成安装注册即可。  
 PS: 如果没有再收信箱看见这封信，请在垃圾邮件进一步确认。  
 3. 收到的邮件里面会有Origin 2017 英文版的官方下载链接以及*激活码*：
-4. 安装完毕以后请*务必*打开Origin英文版输入激活码进行激活。
+4. 安装完毕以后请**务必**打开Origin英文版输入激活码进行激活。
 ##  2.安装Origin2017（学习版）中文版
 [官方教程](http://www.originlab.com/forum/topic.asp?TOPIC_ID=24029)
 1. 运行中文版的安装程序，选择“修复”选项，将英文版修复为中文版。
