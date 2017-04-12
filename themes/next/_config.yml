@@ -228,8 +228,8 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
-  length: 100
+  enable: true
+  length: 150
 
 # Post meta display settings
 post_meta:
@@ -483,7 +483,7 @@ use_motion: true
 fancybox: true
 
 # Canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 #three_waves
 three_waves: false
