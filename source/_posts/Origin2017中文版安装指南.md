@@ -1,5 +1,5 @@
 ---
-title: Origin 2017 安装指南
+title: Origin2017中文版安装指南
 date: 2017-04-10 17:00:54
 tags:
 - Origin
@@ -24,8 +24,8 @@ PS: 如果没有再收信箱看见这封信，请在垃圾邮件进一步确认�
 2. 启动 Origin，Origin 中文版将会自动激活。 
 
 #  FAQ
-- 下载安装包后安装为什么会有如下错误信息 
-<div align=left><img src="http://www.originlab.com/ftp/forum_and_kbase/Images/error_message_cn_learning_version.png" /> </div>
-A: 中文beta版只能用 edu.cn 邮箱申请的学习版序列号进行激活和安装。 使用其他序列号或选择试用版安装都有可能出现上面错误信息
+1. 下载安装包后安装为什么会有如下错误信息 
+<div align=left><img src="http://www.originlab.com/ftp/forum_and_kbase/Images/error_message_cn_learning_version.png" /> </div>  
+中文beta版只能用 edu.cn 邮箱申请的学习版序列号进行激活和安装。 使用其他序列号或选择试用版安装都有可能出现上面错误信息
 
 
