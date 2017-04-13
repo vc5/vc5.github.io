@@ -486,7 +486,7 @@ fancybox: true
 canvas_nest: false
 
 #three_waves
-three_waves: true
+three_waves: false
 
 # Only fit scheme Pisces
 # Canvas-ribbon
@@ -541,10 +541,11 @@ vendors:
 
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
-  canvas_nest: false
+  canvas_nest:
 
   #three
-  three_waves: false
+  three:
+  three_waves:
 
 
 
