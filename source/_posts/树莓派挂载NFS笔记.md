@@ -8,6 +8,6 @@ tags:
 ---
 
 # 为什么要挂载nfs
-# 挂载教程
-##  安装软件包
+我入手的树莓派2B,USB2.0瓶颈问题一直让人，
+# 挂载教程##  安装软件包
 `sudo apt install nfs-common`

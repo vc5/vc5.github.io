@@ -9,6 +9,12 @@ tags:
 ## `conda update`相关参数解释
 `-c CHANNEL, --channel CHANNEL`
 
+# 清理
+`conda clean --all`  
+清理无用的包和安装包  
+有以下选项可以选  
+`--lock, --tarballs, --index-cache, --packages, --source-cache, --all`  
+
 # 更换国内源
 Anaconda 安装包可以到 https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/ 下载。
 TUNA 还提供了 Anaconda 仓库的镜像，运行以下命令:
