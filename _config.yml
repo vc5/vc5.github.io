@@ -104,5 +104,5 @@ qiniu:
 deploy:
 - type: git
   repo: 
-      github: git@vc5.github.com:vc5/vc5.github.io.git,master
+      github: git@vc5.github.com:vc5/vc5.github.io.git,gh-pages
       coding: git@git.coding.net:vc5/vc5.coding.me.git,master
