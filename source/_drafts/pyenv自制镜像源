@@ -1,0 +1,5 @@
+通过设置export PYTHON_BUILD_MIRROR_URL="http://vc5.github.io/1024validate"
+可以使用 pyenv install 通过sha256sum值 在PYTHON_BUILD_MIRROR_URL下寻找安装包
+
+各个软件包的sha256sum值在下面文件中可以获取
+https://github.com/pyenv/pyenv/tree/master/plugins/python-build/share/python-build
