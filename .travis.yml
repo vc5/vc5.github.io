@@ -3,6 +3,7 @@ node_js: stable
 install:
 - npm install
 script:
+- git submodule update
 - hexo qiniu s
 - hexo g -d
 - rm -rf ~/.ssh secret
