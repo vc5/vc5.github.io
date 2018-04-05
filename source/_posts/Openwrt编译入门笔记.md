@@ -7,10 +7,15 @@ tags:
 ---
 本文以斐讯K2为例，进行编译
 # 使用编译包
-## [部署编译环境] [1]
+## [部署编译环境][1]
 [1]:https://openwrt.org/docs/guide-developer/quickstart-build-images "Quick Image Building Guide"
 
+### 注意事项
+
+1.不要用root用户编译
+
 ### Docker下简易部署
+
 `docker run -t -i nemoalex/openwrt-buildroot /bin/bash`
 ### 在Ubuntu系统下自行部署
 安装以下依赖就好了
@@ -18,8 +23,8 @@ tags:
 sudo apt-get install subversion g++ zlib1g-dev build-essential git python rsync man-db
 sudo apt-get install libncurses5-dev gawk gettext unzip file libssl-dev wget zip
 ```
-### 注意事项
-    1.不要用root用户编译
+
+
 ## 下载最新编译包
 ```bash
 wget https://downloads.openwrt.org/snapshots/targets/ramips/mt7620/openwrt-imagebuilder-ramips-mt7620.Linux-x86_64.tar.xz
@@ -57,5 +62,11 @@ cd lede
 `j1`代表使用单核编译,`V=s`(或者`V=99`)代表输出更详细的日志
 
 
+
+# 编译失败可能的原因
+
+1.内存不足，可以通过添加swap来解决
+
 # Reference
+
 [1.Quick Image Building Guide][1]

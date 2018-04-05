@@ -121,7 +121,7 @@ theme_config:
   baidu_analytics: 321fcbb44f19110036217f657d323e1e
   
   valine:
-    enable: true
+    enable: false
     appid:  Weres8VKraIetH90wimrTc4G-gzGzoHsz
     appkey:  PkxXld3YxxoIXfbARQTHBq8G
     notify: true
@@ -131,11 +131,11 @@ theme_config:
     guest_info: nick,mail # custom comment header
     pageSize: 10 # pagination size
 
-  # disqus:
-  #   enable: true
-  #   shortname: vc5
-  #   count: true
-  # youyan_uid: 2130659
+  disqus:
+    enable: true
+    shortname: vc5
+    count: true
+  youyan_uid: 2130659
   jiathis: true
   add_this_id: 2130959
   leancloud_visitors:
