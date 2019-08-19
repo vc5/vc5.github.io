@@ -152,24 +152,24 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
-## 七牛同步
-qiniu:
-  offline: false
-  sync: true
-  bucket: weichen
-  secret_file: secret/qn.json
-  dirPrefix: vc5
-  urlPrefix: http://7xn70q.com1.z0.glb.clouddn.com/vc5
-  up_host: http://upload.qiniu.com
-  local_dir: static
-  update_exist: true
-  image: 
-    folder: images
-    extend: 
-  js:
-    folder: js
-  css:
-    folder: css
+# ## 七牛同步
+# qiniu:
+#   offline: false
+#   sync: true
+#   bucket: weichen
+#   secret_file: secret/qn.json
+#   dirPrefix: vc5
+#   urlPrefix: http://7xn70q.com1.z0.glb.clouddn.com/vc5
+#   up_host: http://upload.qiniu.com
+#   local_dir: static
+#   update_exist: true
+#   image: 
+#     folder: images
+#     extend: 
+#   js:
+#     folder: js
+#   css:
+#     folder: css
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -177,4 +177,3 @@ deploy:
 - type: git
   repo: 
       github: git@vc5.github.com:vc5/vc5.github.io.git,master
-      coding: git@git.coding.net:vc5/vc5.coding.me.git,master
