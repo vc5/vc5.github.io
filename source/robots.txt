@@ -9,5 +9,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://www.arao.me/sitemap.xml
-Sitemap: http://www.arao.me/baidusitemap.xml
+Sitemap: http://www.weichen.me/sitemap.xml
+Sitemap: http://www.weichen.me/baidusitemap.xml
