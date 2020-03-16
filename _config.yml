@@ -10,7 +10,7 @@ keywords:
   - Python
   - Linux
 author: Vincent
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -85,6 +85,11 @@ theme_config:
     safari_pinned_tab: /favicon.ico
     #android_manifest: /images/manifest.json
     #ms_browserconfig: /images/browserconfig.xml
+  # Console reminder if new version released.
+  reminder: true
+
+  # Remove unnecessary files after hexo generate.
+  minify: true
 
   keywords: "魏晨, 博客"
 
@@ -94,9 +99,15 @@ theme_config:
 
   footer:
     since: 2015
-    icon: heart
+    icon:
+      # Icon name in Font Awesome. See: https://fontawesome.com/v4.7.0/icons/
+      # `heart` is recommended with animation in red (#ff0000).
+      name: heart
+      # If you want to animate the icon, set it to true.
+      animated: true
+      # Change the color of icon, using Hex Code.
+      color: "#ff0000"
 
-  seo: true
 
   menu:
     主页: / || home
@@ -108,6 +119,11 @@ theme_config:
     #commonweal: /404/ || heartbeat
     关于: /about/ || user
 
+  # Enable / Disable menu icons / item badges.
+  menu_settings:
+  icons: true
+  badges: true
+
   scheme: Pisces
 
   social:
@@ -117,7 +133,17 @@ theme_config:
     Weibo: https://weibo.com/weichen92 || weibo
 
   avatar: /images/avatar.jpg
-  creative_commons: by-nc-sa
+  # Creative Commons 4.0 International License.
+  # See: https://creativecommons.org/share-your-work/licensing-types-examples
+  # Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
+  # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
+  # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
+  creative_commons:
+    license: by-nc-sa
+    sidebar: false
+    post: true
+    language: deed.zh
+
   baidu_analytics: 321fcbb44f19110036217f657d323e1e
   
   valine:
@@ -142,8 +168,19 @@ theme_config:
     enable: true
     app_id: Weres8VKraIetH90wimrTc4G-gzGzoHsz
     app_key: PkxXld3YxxoIXfbARQTHBq8G
+  # Local Search
+  # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
   local_search:
     enable: true
+    # If auto, trigger search by changing input.
+    # If manual, trigger search by pressing enter key or search button.
+    trigger: auto
+    # Show top n results per article, show all results by setting to -1
+    top_n_per_article: 1
+    # Unescape html strings to the readable one.
+    unescape: false
+    # Preload the search data when the page loads.
+    preload: false
 
 
 
@@ -152,24 +189,7 @@ sitemap:
 baidusitemap:
   path: baidusitemap.xml
 
-# ## 七牛同步
-# qiniu:
-#   offline: false
-#   sync: true
-#   bucket: weichen
-#   secret_file: secret/qn.json
-#   dirPrefix: vc5
-#   urlPrefix: http://7xn70q.com1.z0.glb.clouddn.com/vc5
-#   up_host: http://upload.qiniu.com
-#   local_dir: static
-#   update_exist: true
-#   image: 
-#     folder: images
-#     extend: 
-#   js:
-#     folder: js
-#   css:
-#     folder: css
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
