@@ -110,10 +110,10 @@ theme_config:
 
 
   menu:
-    主页: / || home
+    home: / || home
     标签: /tags/ || tags
     分类: /categories/ || th
-    存档: /archives/ || archive
+    archives: /archives/ || archive
     #schedule: /schedule/ || calendar
     #sitemap: /sitemap.xml || sitemap
     #commonweal: /404/ || heartbeat
@@ -178,6 +178,17 @@ theme_config:
     unescape: false
     # Preload the search data when the page loads.
     preload: false
+
+  # SEO 设置
+  seo: true
+  # See: https://www.google.com/webmasters
+  google_site_verification: AQjF_MCWdRUkwlxn0xsw87CSwA0ppA8L6Vhl4ioli9k
+  # Baidu Webmaster tools verification.
+  # See: https://ziyuan.baidu.com/site
+  baidu_site_verification: d8ajVhGFDE
+
+  # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
+  baidu_push: true
 
   # CDN设置  
   vendors:
