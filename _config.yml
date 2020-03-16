@@ -122,7 +122,7 @@ theme_config:
   # Enable / Disable menu icons / item badges.
   menu_settings:
   icons: true
-  badges: true
+  badges: false
 
   scheme: Pisces
 
