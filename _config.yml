@@ -161,9 +161,6 @@ theme_config:
     enable: true
     shortname: vc5
     count: true
-  youyan_uid: 2130659
-  jiathis: true
-  add_this_id: 2130959
   leancloud_visitors:
     enable: true
     app_id: Weres8VKraIetH90wimrTc4G-gzGzoHsz
@@ -189,6 +186,12 @@ theme_config:
   # DisqusJS
     disqusjs_js: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
     disqusjs_css: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+  # Internal version: 1.2.1
+    velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js
+    velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js
+  
+  # Internal version: 4.7.0
+    fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
 
 
 sitemap:
