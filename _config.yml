@@ -144,7 +144,7 @@ theme_config:
     post: true
     language: deed.zh
 
-  baidu_analytics: 321fcbb44f19110036217f657d323e1e
+  baidu_analytics: 4d424f61727f3c59dbec14e96ceccec1
   
   valine:
     enable: false
