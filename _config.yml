@@ -218,3 +218,4 @@ deploy:
 - type: git
   repo: 
       github: git@vc5.github.com:vc5/vc5.github.io.git,master
+      coding: git@e.coding.net:vc5/vc5.coding.me/vc5.git,master
