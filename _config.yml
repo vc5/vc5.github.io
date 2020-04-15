@@ -146,16 +146,7 @@ theme_config:
 
   baidu_analytics: 4d424f61727f3c59dbec14e96ceccec1
   
-  valine:
-    enable: false
-    appid:  Weres8VKraIetH90wimrTc4G-gzGzoHsz
-    appkey:  PkxXld3YxxoIXfbARQTHBq8G
-    notify: true
-    verify: false # Verification code
-    placeholder: 来啊，快活啊
-    avatar: identicon
-    guest_info: nick,mail # custom comment header
-    pageSize: 10 # pagination size
+
 
   disqus:
     enable: true
@@ -165,6 +156,7 @@ theme_config:
     enable: true
     app_id: Weres8VKraIetH90wimrTc4G-gzGzoHsz
     app_key: PkxXld3YxxoIXfbARQTHBq8G
+    security: true
   # Local Search
   # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
   local_search:
