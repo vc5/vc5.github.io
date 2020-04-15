@@ -156,7 +156,7 @@ theme_config:
     enable: true
     app_id: Weres8VKraIetH90wimrTc4G-gzGzoHsz
     app_key: PkxXld3YxxoIXfbARQTHBq8G
-    security: true
+    security: false
   # Local Search
   # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
   local_search:
