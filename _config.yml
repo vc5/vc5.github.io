@@ -35,7 +35,6 @@ skip_render:
 new_post_name: :title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -152,11 +151,6 @@ theme_config:
     enable: true
     shortname: vc5
     count: true
-  leancloud_visitors:
-    enable: true
-    app_id: Weres8VKraIetH90wimrTc4G-gzGzoHsz
-    app_key: PkxXld3YxxoIXfbARQTHBq8G
-    security: false
   # Local Search
   # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
   local_search:
