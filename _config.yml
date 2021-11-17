@@ -101,7 +101,7 @@ theme_config:
     icon:
       # Icon name in Font Awesome. See: https://fontawesome.com/v4.7.0/icons/
       # `heart` is recommended with animation in red (#ff0000).
-      name: heart
+      name: fa fa-heart
       # If you want to animate the icon, set it to true.
       animated: true
       # Change the color of icon, using Hex Code.
@@ -146,11 +146,23 @@ theme_config:
   baidu_analytics: 4d424f61727f3c59dbec14e96ceccec1
   
 
+  comments:
+    # Available values: tabs | buttons
+    style: tabs
+    # Choose a comment system to be displayed by default.
+    # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
+    active: disqusjs
+    # Setting `true` means remembering the comment system selected by the visitor.
+    storage: true
+    # Lazyload all comment systems.
+    lazyload: true
 
-  disqus:
-    enable: true
-    shortname: vc5
-    count: true
+
+  # disqus:
+  #   enable: true
+  #   shortname: vc5
+  #   count: true
+
   # Local Search
   # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
   local_search:
@@ -164,6 +176,19 @@ theme_config:
     unescape: false
     # Preload the search data when the page loads.
     preload: false
+
+  # DisqusJS
+  # Alternative Disqus - Render comment component using Disqus API.
+  # Demo: https://suka.js.org/DisqusJS/
+  # For more information: https://github.com/SukkaW/DisqusJS
+  disqusjs:
+    enable: true
+    # API Endpoint of Disqus API (https://disqus.com/api/).
+    # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
+    # For example:
+    api: https://disqus.skk.moe/disqus/
+    apikey: q5lIAHAjjUwMUszf75FE8xArYyBuWkBToaiC4JuiB0bfggujnuZsViuCrhlw72LC
+    shortname: vc5
 
   # SEO 设置
   seo: true
@@ -180,21 +205,23 @@ theme_config:
   vendors:
   # MathJax
     mathjax: //cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
   # DisqusJS
     disqusjs_js: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqus.js
     disqusjs_css: //cdn.jsdelivr.net/npm/disqusjs@1/dist/disqusjs.css
+
   # Internal version: 1.2.1
     velocity: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.min.js
     velocity_ui: //cdn.jsdelivr.net/npm/velocity-animate@1/velocity.ui.min.js
-  
-  # Internal version: 4.7.0
-    fontawesome: //cdn.jsdelivr.net/npm/font-awesome@4/css/font-awesome.min.css
+    
+    fontawesome: //cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css
+
 
 
 sitemap:
   path: sitemap.xml
-baidusitemap:
-  path: baidusitemap.xml
+# baidusitemap:
+#   path: baidusitemap.xml
 
 
 
