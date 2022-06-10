@@ -13,7 +13,20 @@ tags:
 `npm install -g hexo-cli`
 
 # Hexo更新
-[更新软件包](https://sophonci117.me/archives/2192384774/)
+```bash
+//以下命令分别执行即可
+npm install -g npm-check     //安装npm-check
+npm-check                    //查看系统插件是否需要升级
+npm install -g npm-upgrade   //安装npm-upgrade
+npm-upgrade        //更新package.json
+//在执行npm-upgrade命令后会要求输入yes或者no，直接输入Yes或Y即可
+npm update -g      //更新全局插件
+npm update --save  //更新系统插件
+
+hexo clean #清理hexo数据并重新生成页面并部署
+hexo g -s
+hexo d
+```
 
 # 主题配置
 将next的配置文件放在hexo site的配置文件里目前来说是最优配置了
