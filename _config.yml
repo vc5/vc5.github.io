@@ -106,10 +106,11 @@ theme_config:
       animated: true
       # Change the color of icon, using Hex Code.
       color: "#ff0000"
-
-  beian:
-    enable: true
-    icp: 陕ICP备2023020060号-1
+      
+    beian:
+      enable: true
+      icp: 陕ICP备2023020060号-1
+  
 
 
   menu:
