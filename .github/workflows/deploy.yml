@@ -1,0 +1,51 @@
+name: Deploy Hexo to ECS
+
+on:
+  push:
+    branches:
+      - hexo
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout sources
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Hexo
+        run: |
+          npm install -g hexo-cli
+          npm install
+          
+      - name: Install Hexo Theme
+        run: |
+          git submodule init
+          git submodule update
+
+      - name: Build Hexo
+        run: |
+          hexo clean
+          hexo generate
+          
+      - name: List public folder
+        run: |
+          ls -lR public
+
+      # 使用 rsync 通过 SSH 部署到 ECS
+      - name: Deploy to ECS
+        uses: appleboy/scp-action@v1
+        with:
+          host: ${{ secrets.ECS_HOST }}
+          username: ${{ secrets.ECS_USER }}
+          key: ${{ secrets.ECS_KEY }}
+          source: "public/*"
+          target: ${{ secrets.ECS_TARGET }}
+          strip_components: 1
+          overwrite: true

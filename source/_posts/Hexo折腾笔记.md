@@ -28,6 +28,9 @@ hexo g -s
 hexo d
 ```
 
+# 2025-12-8更新
+调整至阿里云ECS
+
 # 主题配置
 将next的配置文件放在hexo site的配置文件里目前来说是最优配置了
 + [Hexo博客SEO优化](http://www.arao.me/2015/hexo-next-theme-optimize-seo/)
